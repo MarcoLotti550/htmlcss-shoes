@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+}
+nav{
+    position: absolute;
+    scroll-behavior: smooth;
+    top: 50px;
+    right: 10px;
+}
+#scarpa1{
+    height: 100vh;
+    background-color: red;
+    background-size: 100%;
+}
