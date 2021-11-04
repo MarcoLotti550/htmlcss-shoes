@@ -11,13 +11,19 @@ ul{
 ul li{
     display: inline-block;
 }
+nav li a{
+    width: 50px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 50px;
+}
 ul li a{
     text-decoration: none;
     color: #000;
-    background-color: white;
-    margin: 0 20px;  
-    padding: 20px;
-    border-radius: 50%;  
+    margin: 0 20px;   
 }
 ul li a:hover{
     box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.589);
