@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'rubik mono one', sans-serif;
 }
 /* menù */
 ul{
@@ -16,15 +17,13 @@ nav li a{
     display: block;
     text-align: center;
     line-height: 50px;
-    vertical-align: middle;
     background-color: white;
     border-radius: 50px;
-}
-ul li a{
     text-decoration: none;
     color: #000;
-    margin: 0 20px;   
+    margin: 0 20px; 
 }
+
 ul li a:hover{
     box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.589);
 }
@@ -60,13 +59,17 @@ nav{
     color: rgb(0, 145, 0);
 }
 /* centro scritte */
-.schermata h1{
-    display: inline-block;
-    transform: translate(-250px, 150px);
-    font-size: 50px;
+
+section{
+    position: relative;
 }
-/* centro immagini */
-.schermata img{
-    display: inline-block;
-    transform: translate(70%, 20%);
+section .schermata{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.schermata h1{
+    font-size: 50px;
+    text-align: center;
 }
